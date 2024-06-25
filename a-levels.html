@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A-Levels Resources</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 40px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .category, .sub-category {
+            margin: 10px 0;
+        }
+        .sub-category {
+            margin-left: 20px;
+        }
+        .pdf-link {
+            display: none;
+            margin-left: 40px;
+        }
+        .toggle {
+            cursor: pointer;
+            user-select: none;
+            color: #007BFF;
+        }
+        .toggle:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        function toggleVisibility(id) {
+            var element = document.getElementById(id);
+            if (element.style.display === "none") {
+                element.style.display = "block";
+            } else {
+                element.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>A-Levels Resources</h1>
+    <div class="category">
+        <h2>P1</h2>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Quadratics')">&#9656; Quadratics</span>
+            <div class="pdf-link" id="Quadratics">
+                <a href="path/to/your/pdf1.pdf">PDF 1</a><br>
+                <a href="path/to/your/pdf2.pdf">PDF 2</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Functions and Graphs')">&#9656; Functions and Graphs</span>
+            <div class="pdf-link" id="Functions and Graphs">
+                <a href="path/to/your/pdf3.pdf">PDF 3</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Coordinate Geometry')">&#9656; Coordinate Geometry</span>
+            <div class="pdf-link" id="Coordinate Geometry">
+                <a href="path/to/your/pdf3.pdf">PDF 3</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Circular Measure')">&#9656; Circular Measure</span>
+            <div class="pdf-link" id="Circular Measure">
+                <a href="path/to/your/pdf3.pdf">PDF 3</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Trignometry')">&#9656; Trignometry</span>
+            <div class="pdf-link" id="Trignometry">
+                <a href="path/to/your/pdf3.pdf">PDF 3</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Binomial Expansion')">&#9656; Binomial Expansion</span>
+            <div class="pdf-link" id="Binomial Expansion">
+                <a href="path/to/your/pdf3.pdf">PDF 3</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Arithmetic and Geometric Progressions')">&#9656; Arithmetic and Geometric Progressions</span>
+            <div class="pdf-link" id="Arithmetic and Geometric Progressions">
+                <a href="path/to/your/pdf3.pdf">PDF 3</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Differentiation')">&#9656; Differentiation</span>
+            <div class="pdf-link" id="Differentiation">
+                <a href="path/to/your/pdf3.pdf">PDF 3</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Integration')">&#9656; Integration</span>
+            <div class="pdf-link" id="Integration">
+                <a href="path/to/your/pdf3.pdf">PDF 3</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="category">
+        <h2>P3</h2>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Equations and Inequalities')">&#9656; Equations and Inequalities</span>
+            <div class="pdf-link" id="Equations and Inequalities">
+                <a href="path/to/your/pdf4.pdf">PDF 4</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Remainder and Factor Theorem')">&#9656; Remainder and Factor Theorem</span>
+            <div class="pdf-link" id="Remainder and Factor Theorem">
+                <a href="path/to/your/pdf5.pdf">PDF 5</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Partial Fractions and Binomial Expansions')">&#9656; Partial Fractions and Binomial Expansions</span>
+            <div class="pdf-link" id="Partial Fractions and Binomial Expansions">
+                <a href="path/to/your/pdf4.pdf">PDF 4</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Logarithmic and Exponential Functions')">&#9656; Logarithmic and Exponential Functions</span>
+            <div class="pdf-link" id="Logarithmic and Exponential Functions">
+                <a href="path/to/your/pdf4.pdf">PDF 4</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Trignometry')">&#9656; Trignometry</span>
+            <div class="pdf-link" id="Trignometry">
+                <a href="path/to/your/pdf4.pdf">PDF 4</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Differentiation')">&#9656; Differentiation</span>
+            <div class="pdf-link" id="Differentiation">
+                <a href="path/to/your/pdf4.pdf">PDF 4</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Integration')">&#9656; Integration</span>
+            <div class="pdf-link" id="Integration">
+                <a href="path/to/your/pdf4.pdf">PDF 4</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Numerical Solution of Equations')">&#9656; Numerical Solution of Equations</span>
+            <div class="pdf-link" id="Numerical Solution of Equations">
+                <a href="path/to/your/pdf4.pdf">PDF 4</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Vectors')">&#9656; Vectors</span>
+            <div class="pdf-link" id="Vectors">
+                <a href="path/to/your/pdf4.pdf">PDF 4</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Differential Equations')">&#9656; Differential Equations</span>
+            <div class="pdf-link" id="Differential Equations">
+                <a href="path/to/your/pdf4.pdf">PDF 4</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Complex Numbers')">&#9656; Complex Numbers</span>
+            <div class="pdf-link" id="Complex Numbers">
+                <a href="path/to/your/pdf4.pdf">PDF 4</a>
+            </div>
+        </div>
+    </div>
+    <div class="category">
+        <h2>M1</h2>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Forces and Equilibrium')">&#9656; Forces and Equilibrium</span>
+            <div class="pdf-link" id="Forces and Equilibrium">
+                <a href="path/to/your/pdf1.pdf">PDF 1</a><br>
+                <a href="path/to/your/pdf2.pdf">PDF 2</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Forces and Equilibrium - Contact Forces')">&#9656; Forces and Equilibrium - Contact Forces</span>
+            <div class="pdf-link" id="Forces and Equilibrium - Contact Forces">
+                <a href="path/to/your/pdf3.pdf">PDF 3</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Kinematics of Motion in a Straight Line')">&#9656; Kinematics of Motion in a Straight Line</span>
+            <div class="pdf-link" id="Kinematics of Motion in a Straight Line">
+                <a href="path/to/your/pdf3.pdf">PDF 3</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Newton's\'Laws of Motion')">&#9656; Newtons's Law of Motion</span>
+            <div class="pdf-link" id="Newtons's Law of Motion">
+                <a href="path/to/your/pdf3.pdf">PDF 3</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Motion of Connected Bodies')">&#9656; Motion of Connected Bodies</span>
+            <div class="pdf-link" id="Motion of Connected Bodies">
+                <a href="path/to/your/pdf3.pdf">PDF 3</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Energy, Work and Power')">&#9656; Energy, Work and Power</span>
+            <div class="pdf-link" id="Energy, Work and Power">
+                <a href="path/to/your/pdf3.pdf">PDF 3</a>
+            </div>
+        </div>
+    </div>
+    <div class="category">
+        <h2>S1</h2>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Representation of Data - Graphical Representation')">&#9656; Representation of Data - Graphical Representation</span>
+            <div class="pdf-link" id="Representation of Data - Graphical Representation">
+                <a href="path/to/your/pdf1.pdf">PDF 1</a><br>
+                <a href="path/to/your/pdf2.pdf">PDF 2</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Representation of Data - Mean and Standard Deviation')">&#9656; Representation of Data - Mean and Standard Deviation</span>
+            <div class="pdf-link" id="Representation of Data - Mean and Standard Deviation">
+                <a href="path/to/your/pdf3.pdf">PDF 3</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Permutations and Combinations')">&#9656; Permutations and Combinations</span>
+            <div class="pdf-link" id="Permutations and Combinations">
+                <a href="path/to/your/pdf3.pdf">PDF 3</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Probability')">&#9656; Probability</span>
+            <div class="pdf-link" id="Probability">
+                <a href="path/to/your/pdf3.pdf">PDF 3</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Discrete Random Variables')">&#9656; Discrete Random Variables</span>
+            <div class="pdf-link" id="Discrete Random Variables">
+                <a href="path/to/your/pdf3.pdf">PDF 3</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('Binomial Distribution')">&#9656; Binomial Distribution</span>
+            <div class="pdf-link" id="Binomial Distribution">
+                <a href="path/to/your/pdf3.pdf">PDF 3</a>
+            </div>
+        </div>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('The Normal Distribution')">&#9656; The Normal Distribution</span>
+            <div class="pdf-link" id="The Normal Distribution">
+                <a href="path/to/your/pdf3.pdf">PDF 3</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

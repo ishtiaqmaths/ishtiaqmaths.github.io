@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SAT Resources</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 40px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .category, .sub-category {
+            margin: 10px 0;
+        }
+        .sub-category {
+            margin-left: 20px;
+        }
+        .pdf-link {
+            display: none;
+            margin-left: 40px;
+        }
+        .toggle {
+            cursor: pointer;
+            user-select: none;
+            color: #007BFF;
+        }
+        .toggle:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        function toggleVisibility(id) {
+            var element = document.getElementById(id);
+            if (element.style.display === "none") {
+                element.style.display = "block";
+            } else {
+                element.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>SAT Resources</h1>
+    <div class="category">
+        <!-- Add your SAT content here -->
+        <h3>Category 1</h3>
+        <div class="sub-category">
+            <span class="toggle" onclick="toggleVisibility('category1')">&#9656; Sub-category 1</span>
+            <div class="pdf-link" id="category1">
+                <a href="path/to/your/pdf1.pdf">PDF 1</a><br>
+                <a href="path/to/your/pdf2.pdf">PDF 2</a>
+            </div>
+        </div>
+    </div>
+    <!-- Add more categories and sub-categories as needed -->
+</body>
+</html>
